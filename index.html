@@ -3,14 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <meta name="description" content="Your one stop shop for all things boots and straps. Check out our store for our latest offers.">
+    <meta name="twitter:description" content="Your one stop shop for all things boots and straps. Check out our store for our latest offers.">
+    <meta name="og:description" content="Your one stop shop for all things boots and straps. Check out our store for our latest offers.">
+
+    <title>BootStrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container-lg">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/BootStrap.png" alt="Boot Strap Logo" height="70" aria-current="page">
+                </a>
+                <button class="navbar-toggler bg-dark-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse nav-pills justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-semibold" href="#">Boots</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">Straps</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="#">Extras</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card card_main">
+                        <div class="card-header bg-primary">
+                            <h2 class="card-title fw-bolder text-success-emphasis">Latest Article</h2>
+                        </div>
+                        
+                        <div class="card-header bg-dark">
+                            <h4 class="card-title fw-bold">Straps no longer just for boots</h4>
+                        </div>
+                        <img src="images/bundo-kim-0c823MqkyyA-unsplash.jpg" class="card-img-center" alt="A picture of two leather straps on a wooden surface. One of the straps has a metal buckle.">
 
+                        <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus placeat dolorum nesciunt reprehenderit, id neque animi, laudantium perspiciatis sunt nulla. Magni, obcaecati nostrum iure fuga recusandae ex quae rerum.</p>
+
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="row gy-3">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/bundo-kim-0c823MqkyyA-unsplash.jpg" class="card-img-top" alt="A picture of two leather straps on a wooden surface. One of the straps has a metal buckle.">
+                                <div class="card-header bg-dark">
+                                    <h3 class="card-title fw-bold">Straps no longer just for boots</h3>
+                                </div>
+                                <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eum cum veniam voluptas ullam. Illum repellendus quod quam, beatae soluta sapiente magnam odio rerum corrupti. Earum tempore aperiam possimus? Fugiat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus placeat dolorum nesciunt reprehenderit, id neque animi, laudantium perspiciatis sunt nulla. Magni, obcaecati nostrum iure fuga recusandae ex quae rerum.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div> 
+                            <div class="card">
+                                <img src="images/andrea-de-santis-EOprXdC201Y-unsplash.jpg" class="card-img-top" alt="A picture of a Sony branded camera strap wound around itself.">
+                                <div class="card-header bg-dark">
+                                    <h3 class="card-title fw-bold">Camera Straps - An industry in turmoil</h3>
+                                </div>
+                                <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eum cum veniam voluptas ullam. Illum repellendus quod quam, beatae soluta sapiente magnam odio rerum corrupti.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>    
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/no-revisions-z4bLu9zPWbE-unsplash.jpg" class="card-img-top" alt="A picture of two black boots on a white fluffy surface. The boots are laced up completely and have broguing on the toe.">
+                                <div class="card-header bg-dark">
+                                    <h3 class="card-title fw-bold">Broguing attempting to corner boot market</h3>
+                                </div>
+                                <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis commodi ea id omnis doloribus ab nobis at iure minus quos, sint distinctio pariatur iusto, unde totam, ex deserunt veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus placeat dolorum nesciunt reprehenderit, id neque animi, laudantium perspiciatis sunt nulla. Magni, obcaecati nostrum iure fuga recusandae ex quae rerum.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/patrick-langwallner-bn0dTzjxX8Y-unsplash.jpg" class="card-img-top" alt="A picture of two leather straps on a grey surface. Both straps have metal buckles with the word 'HOLDFAST' stamped onto them.">
+                                <div class="card-header bg-dark">
+                                    <h3 class="card-title fw-bold">Straps - A comprehensive guide</h3>
+                                </div>
+                                <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eum cum veniam voluptas ullam. Illum repellendus quod quam, beatae soluta sapiente magnam odio rerum corrupti. Earum tempore aperiam possimus? Fugiat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus placeat dolorum nesciunt reprehenderit, id neque animi, laudantium perspiciatis sunt nulla. Magni, obcaecati nostrum iure fuga recusandae ex quae rerum.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>     
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/mostafa-mahmoudi-KKsB-eOAjVo-unsplash.jpg" class="card-img-top" alt="A picture of a black leather boot on a white surface. The boot has two closed zippers running down it.">
+                                <div class="card-header bg-dark">
+                                    <h3 class="card-title fw-bold">Boots now utilising functional zippers</h3>
+                                </div>
+                                <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus placeat dolorum nesciunt reprehenderit, id neque animi, laudantium perspiciatis sunt nulla. Magni, obcaecati nostrum iure fuga recusandae ex quae rerum.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>  
+                            <div class="card">
+                                <img src="images/leon-seibert-cwy90fRMbrQ-unsplash.jpg" class="card-img-top" alt="A picture of a cat sat next to a pair of leather boots on a tile floor. The cat is looking at something to the right of the camera and has taken a hunting stance.">
+                                <div class="card-header bg-dark">
+                                    <h3 class="card-title fw-bold">Puss hangs up his boots</h3>
+                                </div>
+                                <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eum cum veniam voluptas ullam. Illum repellendus quod quam, beatae soluta sapiente magnam odio rerum corrupti. Earum tempore aperiam possimus? Fugiat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus placeat dolorum nesciunt reprehenderit, id neque animi, laudantium perspiciatis sunt nulla. Magni, obcaecati nostrum iure fuga recusandae ex quae rerum.</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>   
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
